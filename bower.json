@@ -1,0 +1,21 @@
+{
+  "name": "bxmodeler",
+  "version": "0.0.1",
+  "homepage": "https://github.com/meliorator/bxmodeler",
+  "authors": [
+    "Laba.Mykola <me@laba.net.ua>"
+  ],
+  "description": "mini CAD system on javascript and svg",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "svg.js": "~1.0.1"
+  }
+}
