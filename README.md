@@ -1,6 +1,6 @@
 # bxmodeler
 
-mini CAD system on javascript and svg
+mini CAD system on javascript and svg for building wood furniture
 
 ## Getting Started
 ### On the server
