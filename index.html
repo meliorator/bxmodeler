@@ -3,17 +3,28 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>BxModeler</title>
-    <link rel="stylesheet" href="/assets/vendors/css/bootstrap.min.css" />
-    <script src="/assets/vendors/js/jquery.min.js"></script>
-    <script src="/assets/vendors/js/bootstrap.min.js"></script>
-    <script src="/assets/vendors/js/svg.min.js"></script>
-    <script src="/assets/js/bxmodeler.js" ></script>
-    <script type="text/javascript">
-        var ddd = 'dfdfg';
-    </script>
+    <link rel="stylesheet" href="/assets/vendors/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/assets/css/bxmodeler.css"/>
 
 </head>
-<body>
-test
+<body onload="test()">
+
+<!--<div id="drawing"></div>-->
+
+<div id="board" style="margin-left: 50px" class="plane"></div>
+
+<script src="/assets/vendors/js/jquery.min.js"></script>
+<script src="/assets/vendors/js/bootstrap.min.js"></script>
+<script src="/assets/vendors/js/svg.js"></script>
+<script src="/assets/js/bxmodeler_core.js"></script>
+<script type="text/javascript">
+    function test(){
+//        var draw = SVG('drawing').size(300, 300);
+//        var rect = draw.rect(100, 100).attr({ fill: '#f06' });
+        var board = new Board('board');
+    }
+
+</script>
+
 </body>
 </html>
